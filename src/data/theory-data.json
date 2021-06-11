@@ -1,6 +1,6 @@
 [
     {
-        "theory_id": 1, 
+        "id": 1, 
         "user": "IWantToBelieve", 
         "title": "DHS Employee Leaks Several Craft Captures", 
         "body": "So this is a recording off a screen. They could be drones? Could be a bag blowing in the wind? The 2nd one is a weird shape. 3 different videos. The last one, to me looks like someone running. Aliens?",
@@ -9,11 +9,11 @@
     }
     ,
     {
-        "theory_id": 2, 
+        "id": 2, 
         "user": "HeIsReal", 
         "title": "Bigfoot spotted in Canada viscously attacking poor dogs", 
         "body": "This is real, and if it isnt, then it must be a type of science experiment gone wrong",
         "youtube": "https://www.youtube.com/watch?v=munPp24EgKE",
-        "image": ["https://img.memecdn.com/bigfoot_o_956839.jpg"]
+        "image": "https://img.memecdn.com/bigfoot_o_956839.jpg"
     }
 ]

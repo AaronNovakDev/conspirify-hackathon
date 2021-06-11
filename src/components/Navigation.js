@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import '../stylesheets/stylesheet.css'
 
 const Navigation =({loggedInUser, activateUser})=>{
     function logout(e){
@@ -9,7 +10,7 @@ const Navigation =({loggedInUser, activateUser})=>{
     }
 
     return(
-        <div>
+        <div className='nav'>
             <Link to="/messages">Home</Link>
             <Link to="/about">About</Link>
             {loggedInUser ? 

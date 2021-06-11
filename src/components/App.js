@@ -9,6 +9,7 @@ import Messages from './Messages'
 import Message from './Message'
 import initialMessageList from '../data/theory-data.json'
 import reducer from '../utils/reducer'  
+import '../stylesheets/stylesheet.css'
 
 const App = () => {
   const initialState ={
@@ -57,7 +58,7 @@ const App = () => {
 
   return (
     <div >
-      <h1>CONSPIRIFY</h1>
+      <h1 className='primary'>CONSPIRIFY</h1>
       
       <BrowserRouter>
         <Navigation loggedInUser={loggedInUser} activateUser={activateUser}/>

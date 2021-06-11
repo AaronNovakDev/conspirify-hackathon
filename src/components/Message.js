@@ -1,16 +1,20 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import '../stylesheets/stylesheet.css'
 
 const Message =({message})=>{
     return(
-        <div>
+        <div className='user'>
             {message? 
             <>
                 <Link to={`/messages/${message.id}`} ><h4>{message.text}</h4></Link>
-                <p>{message.user}</p>
-                <p>{message.title}</p>
-                <p>{message.body}</p>
-                <p>{message.image}</p>
+                <br></br>
+                <h2>{message.user}</h2>
+                <h3>{message.title}</h3>
+                <h4>{message.body}</h4>
+                <a href={message.image}>Image</a>
+                <br></br>
+                <a href={message.youtube}>Video Footage</a>
                 <p></p>
             </>
             :
