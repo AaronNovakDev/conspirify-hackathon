@@ -12,9 +12,17 @@ const Message =({message})=>{
                 <h2>{message.user}</h2>
                 <h3>{message.title}</h3>
                 <h4>{message.body}</h4>
-                <a href={message.image}>Image</a>
+                <img src={message.image} alt="Image" height={200} width={200} />
                 <br></br>
-                <a href={message.youtube}>Video Footage</a>
+                <iframe
+                width="400"
+                height="200"
+                src={message.youtube}
+                frameBorder="100px"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+    />
                 <p></p>
             </>
             :

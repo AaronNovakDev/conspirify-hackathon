@@ -11,8 +11,9 @@ const Navigation =({loggedInUser, activateUser})=>{
 
     return(
         <div className='nav'>
-            <Link to="/messages">Home</Link>
-            <Link to="/about">About</Link>
+            <ul className="navul">
+            <li><Link to="/messages">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
             {loggedInUser ? 
                 <>
                     {loggedInUser}
@@ -20,11 +21,12 @@ const Navigation =({loggedInUser, activateUser})=>{
                     <Link to="/messages" onClick={logout}>Logout</Link>
                 </> 
             :   <>
-                    <Link to="/login">Login</Link>
-                    <Link to="/login">Sign up</Link>
-                    Guest
-                </>
-            }
+                    <li><Link to="/login">Login</Link></li>
+                    <li><Link to="/login">Sign up</Link></li>
+                    <li>User</li>
+                </>   
+            } 
+            </ul>
         </div>
     )
 }
