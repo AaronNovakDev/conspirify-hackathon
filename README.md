@@ -10,12 +10,13 @@
 ## Particpants
 - 3 students from Coder Academy Brisbane.
 
-### yarn install
-- Before you start, run yarn install.
+### yarn/npm install
+- Before you start, run yarn/npm install.
 
-### yarn start
+### yarn/npm start
 - Launches the site on your browser
 
 *This app was created as a joke and in no means should be taken literal*
 
 
+# conspirify-hackathon
